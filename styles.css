@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,900;1,900&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    background-color: #333333;
+    overflow: hidden;
+}
+
+.backgroundWrap{
+    display: block;
+    height: 100vh;
+    width: 100vw;
+}
+
+.backgroundWrap .header{
+    display: block;
+    background-color:black;
+}
+
+.backgroundWrap .header h1.text{
+    display: inline-block;
+    position: absolute;
+    padding-top: 15px;
+    margin: 0;
+    text-align: center;
+    font-family: 'Lexend',sans-serif;
+    left: 42%;
+    color: #aaaaaa;
+}
+
+.backgroundWrap .header a{
+    display: inline-block;
+    padding: 30px 20px;
+    text-decoration: none;
+    color: #aaaaaa;
+    font-family: 'Montserrat',sans-serif;
+}
+
+
+.backgroundWrap .sections{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.backgroundWrap .sections .sectionUno{
+    display: block;
+    height: 100vh;
+    padding-top: 30%;
+}
+
+.backgroundWrap .sections .sectionUno h1.sectionUnoTitle{
+    font-family: 'Montserrat',sans-serif;
+    padding-left: 40px;
+}
+
+.backgroundWrap .sections .sectionUno p.sectionUnoParagraph{
+    font-family: 'Lexend',sans-serif;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.backgroundWrap .sections .sectionDos{
+    display: block;
+    height: 100vh;
+    padding-top: 80%;
+}
+
+.backgroundWrap .sections .sectionDos h1.sectionDosTitle{
+    font-family: 'Montserrat',sans-serif;
+    padding-left: 40px;
+}
+
+.backgroundWrap .sections .sectionDos ul.sectionDosList{
+    display: block;
+}
+
+.backgroundWrap .sections .sectionDos ul.sectionDosList p{
+    display: inline-block;
+    font-family: 'Lexend',sans-serif;
+    padding-left: 20px;
+}
+
+.backgroundWrap .sections .sectionTres{
+    display: block;
+    height: 100vh;
+    padding-top: 5%;
+}
+
+.backgroundWrap .sections .sectionTres h1.sectionTresTitle{
+    display: block;
+    font-family: 'Montserrat',sans-serif;
+    padding-left: 40px;
+    padding-right: 20px;
+}
+
+.backgroundWrap .sections .sectionTres p.sectionTresParagraph{
+    display: block;
+    font-family: 'Lexend',sans-serif;
+    padding-left: 20px;
+    padding-right: 30px;
+}
