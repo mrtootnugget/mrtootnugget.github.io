@@ -90,20 +90,11 @@ body{
     width: 100%;
 }
 
-.content .mainContent .columnDos h4.title{
+.content .mainContent .columnDos h4{
     display: flex;
-    align-items: center;
     font-size: large;
     width: 50rem;
     color: #DBDEE1;
     font-family: 'Lexend',sans-serif;
-}
-
-.content .mainContent .columnDos h4.paragraph{
-    display: flex;
-    align-items: center;
-    font-size: large;
-    width: 50rem;
-    color: #DBDEE1;
-    font-family: 'Lexend',sans-serif;
+    line-height: 1.5;
 }
