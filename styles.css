@@ -58,7 +58,8 @@ body{
     font-family: 'Montserrat',sans-serif;
     color: whitesmoke;
     font-size: 1.5rem;
-    padding: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .content .mainContent{
