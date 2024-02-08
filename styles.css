@@ -94,15 +94,16 @@ body{
     width: 50vw;
     color: #DBDEE1;
     font-family: 'Lexend',sans-serif;
-    line-height: 1.5;
     font-size: 2vw;
     justify-content: center;
     text-align: center;
     padding-right: 4vw;
+    margin-top: 1vw;
 }
 
 .content .mainContent .columnDos h4.title{
     display: flex;
     font-size: 3vw;
     justify-content: center;
+    margin: 0;
 }
