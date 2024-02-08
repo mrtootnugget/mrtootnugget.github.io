@@ -23,13 +23,13 @@ body{
     background-color: #2B2D31;
 }
 
-.content .headerWrap .header{
+.content .headerWrap .headerHome{
     display: flex;
     flex-direction: row;
     font-size: x-large;
 }
 
-.content .headerWrap .header a{
+.content .headerWrap .headerHome a{
     display: flex;
     justify-content: center;
     align-items: center;
