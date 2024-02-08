@@ -58,14 +58,15 @@ body{
     font-family: 'Montserrat',sans-serif;
     color: whitesmoke;
     font-size: 1.5rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .content .mainContent{
-    display: grid;
-    grid-template-columns: 50vw 50vw;
+    display: flex;
+    flex-direction:50vw 50vw;
     height: calc(100% - 2.5em - 5.75em);
+    
 }
 
 .content .mainContent .columnUno{
@@ -76,6 +77,7 @@ body{
 }
 
 .content .mainContent .columnUno h1{
+    display: flex;
     font-family: 'Lexend',sans-serif;
     color: #DBDEE1;
     font-size: 6rem;
@@ -83,10 +85,21 @@ body{
 
 .content .mainContent .columnDos{
     display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
 }
 
-.content .mainContent .columnDos h4{
+.content .mainContent .columnDos h4.title{
+    display: flex;
+    align-items: center;
+    font-size: large;
+    width: 50rem;
+    color: #DBDEE1;
+    font-family: 'Lexend',sans-serif;
+}
+
+.content .mainContent .columnDos h4.paragraph{
     display: flex;
     align-items: center;
     font-size: large;
