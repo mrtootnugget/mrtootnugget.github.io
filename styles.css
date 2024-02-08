@@ -1,104 +1,98 @@
-@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,900;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
 
 body{
     padding: 0;
     margin: 0;
     border: 0;
-    background-color: #333333;
     overflow: hidden;
-}
-
-.backgroundWrap{
-    display: block;
     height: 100vh;
     width: 100vw;
 }
 
-.backgroundWrap .header{
-    display: block;
-    background-color:black;
+.content{
+    display: flex;
+    flex-direction: column; 
+    background-color: #313338;
+    height: 100%;
+    width: 100%;
 }
 
-.backgroundWrap .header h1.text{
-    display: inline-block;
-    position: absolute;
-    padding-top: 15px;
-    margin: 0;
+.content .headerWrap{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 5.75em;
+    background-color: #2B2D31;
+}
+
+.content .headerWrap .header{
+    display: flex;
+    flex-direction: row;
+    font-size: x-large;
+}
+
+.content .headerWrap .header a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    font-family: 'Lexend',sans-serif;
-    left: 42%;
-    color: #aaaaaa;
-}
-
-.backgroundWrap .header a{
-    display: inline-block;
-    padding: 30px 20px;
-    text-decoration: none;
-    color: #aaaaaa;
-    font-family: 'Montserrat',sans-serif;
-}
-
-
-.backgroundWrap .sections{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
-.backgroundWrap .sections .sectionUno{
-    display: block;
-    height: 100vh;
-    padding-top: 30%;
-}
-
-.backgroundWrap .sections .sectionUno h1.sectionUnoTitle{
-    font-family: 'Montserrat',sans-serif;
-    padding-left: 40px;
-}
-
-.backgroundWrap .sections .sectionUno p.sectionUnoParagraph{
-    font-family: 'Lexend',sans-serif;
-    padding-left: 30px;
-    padding-right: 30px;
-}
-
-.backgroundWrap .sections .sectionDos{
-    display: block;
-    height: 100vh;
-    padding-top: 80%;
-}
-
-.backgroundWrap .sections .sectionDos h1.sectionDosTitle{
-    font-family: 'Montserrat',sans-serif;
-    padding-left: 40px;
-}
-
-.backgroundWrap .sections .sectionDos ul.sectionDosList{
-    display: block;
-}
-
-.backgroundWrap .sections .sectionDos ul.sectionDosList p{
-    display: inline-block;
-    font-family: 'Lexend',sans-serif;
     padding-left: 20px;
-}
-
-.backgroundWrap .sections .sectionTres{
-    display: block;
-    height: 100vh;
-    padding-top: 5%;
-}
-
-.backgroundWrap .sections .sectionTres h1.sectionTresTitle{
-    display: block;
-    font-family: 'Montserrat',sans-serif;
-    padding-left: 40px;
     padding-right: 20px;
+    font-family: 'Montserrat',sans-serif;
+    text-decoration: none;
+    color: #DBDEE1;
 }
 
-.backgroundWrap .sections .sectionTres p.sectionTresParagraph{
-    display: block;
+.content footer.footerContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    height: 2.5em;
+    background-color: #2B2D31;
+}
+
+.content footer.footerContent a{
+    text-decoration: none;
+    font-family: 'Montserrat',sans-serif;
+    color: whitesmoke;
+    margin: 10px;
+    font-size: 1.5rem;
+}
+
+.content .mainContent{
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+    height: calc(100% - 2.5em - 5.75em);
+}
+
+.content .mainContent .columnUno{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.content .mainContent .columnUno h1{
     font-family: 'Lexend',sans-serif;
-    padding-left: 20px;
-    padding-right: 30px;
+    color: #DBDEE1;
+    font-size: 6rem;
+}
+
+.content .mainContent .columnDos{
+    display: flex;
+    width: 100%;
+}
+
+.content .mainContent .columnDos h4{
+    display: flex;
+    align-items: center;
+    font-size: large;
+    width: 50rem;
+    color: #DBDEE1;
+    font-family: 'Lexend',sans-serif;
 }
