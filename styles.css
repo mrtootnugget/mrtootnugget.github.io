@@ -66,7 +66,6 @@ body{
     display: flex;
     flex-direction:50vw 50vw;
     height: calc(100% - 2.5em - 5.75em);
-    
 }
 
 .content .mainContent .columnUno{
@@ -80,7 +79,7 @@ body{
     display: flex;
     font-family: 'Lexend',sans-serif;
     color: #DBDEE1;
-    font-size: 6rem;
+    font-size: 6vw;
 }
 
 .content .mainContent .columnDos{
@@ -92,9 +91,15 @@ body{
 
 .content .mainContent .columnDos h4{
     display: flex;
-    font-size: large;
-    width: 50rem;
+    width: 50vw;
     color: #DBDEE1;
     font-family: 'Lexend',sans-serif;
     line-height: 1.5;
+    font-size: 2vw;
+}
+
+.content .mainContent .columnDos h4.title{
+    display: flex;
+    font-size: 3vw;
+    justify-content: center;
 }
