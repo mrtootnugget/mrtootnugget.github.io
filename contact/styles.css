@@ -94,10 +94,8 @@ body{
 
 .content .mainContent{
     display: flex;
-    height: calc(100% - 6em);
+    height: 100%;
     width: 100%;
-    align-items: center;
-    justify-content: center;
 }
 
 .content .mainContent .content{
