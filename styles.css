@@ -95,7 +95,7 @@ body{
 .content .mainContent{
     display: flex;
     flex-direction:50vw 50vw;
-    height: calc(100% - 6em);
+    height: 100%;
     width: 100%;
 }
 
