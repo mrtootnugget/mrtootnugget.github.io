@@ -41,7 +41,7 @@ body{
     text-align: center;
     padding-left: 20px;
     padding-right: 20px;
-    font-family: 'Montserrat',sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     color: #DBDEE1;
 }
@@ -94,12 +94,10 @@ body{
 
 .content .mainContent{
     display: flex;
-    flex-direction:50vw 50vw;
     height: 100%;
     width: 100%;
+    flex-direction:50vw 50vw;
 }
-
-
 
 
 .content .mainContent .columnUno{
